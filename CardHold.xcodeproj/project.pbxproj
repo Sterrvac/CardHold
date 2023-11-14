@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA68ABCF2B03F11400368109 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68ABCE2B03F11400368109 /* MeetingView.swift */; };
+		FA68ABD32B03F3DC00368109 /* GitIgnore.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FA68ABD22B03F3DC00368109 /* GitIgnore.gitignore */; };
 		FAB6C4282AFAB632006DD2BD /* CardHoldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6C4272AFAB632006DD2BD /* CardHoldApp.swift */; };
 		FAB6C42A2AFAB632006DD2BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6C4292AFAB632006DD2BD /* ContentView.swift */; };
 		FAB6C42C2AFAB634006DD2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB6C42B2AFAB634006DD2BD /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA68ABCE2B03F11400368109 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		FA68ABD22B03F3DC00368109 /* GitIgnore.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GitIgnore.gitignore; sourceTree = "<group>"; };
 		FAB6C4242AFAB632006DD2BD /* CardHold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardHold.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB6C4272AFAB632006DD2BD /* CardHoldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHoldApp.swift; sourceTree = "<group>"; };
 		FAB6C4292AFAB632006DD2BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +57,10 @@
 			children = (
 				FAB6C4272AFAB632006DD2BD /* CardHoldApp.swift */,
 				FAB6C4292AFAB632006DD2BD /* ContentView.swift */,
+				FA68ABCE2B03F11400368109 /* MeetingView.swift */,
 				FAB6C42B2AFAB634006DD2BD /* Assets.xcassets */,
 				FAB6C42D2AFAB634006DD2BD /* Preview Content */,
+				FA68ABD22B03F3DC00368109 /* GitIgnore.gitignore */,
 			);
 			path = CardHold;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				FAB6C42F2AFAB634006DD2BD /* Preview Assets.xcassets in Resources */,
 				FAB6C42C2AFAB634006DD2BD /* Assets.xcassets in Resources */,
+				FA68ABD32B03F3DC00368109 /* GitIgnore.gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			files = (
 				FAB6C42A2AFAB632006DD2BD /* ContentView.swift in Sources */,
 				FAB6C4282AFAB632006DD2BD /* CardHoldApp.swift in Sources */,
+				FA68ABCF2B03F11400368109 /* MeetingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

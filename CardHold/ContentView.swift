@@ -6,8 +6,7 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 200) {
             Text("Карты")
-                .padding(30)
-                .multilineTextAlignment(.center)
+                .padding(20)
                 .foregroundColor(.black)
                 .background(Color(.sRGB, red: 230/255, green: 210/255, blue: 0/255, opacity: 1.0))
                 .font(.custom("Sun", size: 36, relativeTo: .body))
@@ -20,7 +19,9 @@ struct ContentView: View {
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbarRole(.editor)
             Spacer()
-        }.padding(10)
+            Text("Добавить карту")
+                .padding(.bottom)
+        }
     }
 }
 
